@@ -14,6 +14,8 @@
 		CBFEA0921BC75AC50096BC7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFEA0911BC75AC50096BC7B /* Images.xcassets */; };
 		CBFEA0951BC75AC50096BC7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFEA0931BC75AC50096BC7B /* LaunchScreen.xib */; };
 		CBFEA0A11BC75AC50096BC7B /* LZIOSAnimationPro01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFEA0A01BC75AC50096BC7B /* LZIOSAnimationPro01Tests.m */; };
+		CBFEA0AD1BC75E520096BC7B /* LZCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFEA0AC1BC75E520096BC7B /* LZCircle.m */; };
+		CBFEA0B01BC75E8C0096BC7B /* LZCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFEA0AF1BC75E8C0096BC7B /* LZCircleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		CBFEA09A1BC75AC50096BC7B /* LZIOSAnimationPro01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZIOSAnimationPro01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFEA09F1BC75AC50096BC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFEA0A01BC75AC50096BC7B /* LZIOSAnimationPro01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZIOSAnimationPro01Tests.m; sourceTree = "<group>"; };
+		CBFEA0AB1BC75E520096BC7B /* LZCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCircle.h; sourceTree = "<group>"; };
+		CBFEA0AC1BC75E520096BC7B /* LZCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCircle.m; sourceTree = "<group>"; };
+		CBFEA0AE1BC75E8C0096BC7B /* LZCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCircleLayer.h; sourceTree = "<group>"; };
+		CBFEA0AF1BC75E8C0096BC7B /* LZCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCircleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		CBFEA0831BC75AC50096BC7B /* LZIOSAnimationPro01 */ = {
 			isa = PBXGroup;
 			children = (
+				CBFEA0AA1BC75E330096BC7B /* LZCircleView */,
 				CBFEA0881BC75AC50096BC7B /* AppDelegate.h */,
 				CBFEA0891BC75AC50096BC7B /* AppDelegate.m */,
 				CBFEA08B1BC75AC50096BC7B /* ViewController.h */,
@@ -117,6 +124,17 @@
 				CBFEA09F1BC75AC50096BC7B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBFEA0AA1BC75E330096BC7B /* LZCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				CBFEA0AB1BC75E520096BC7B /* LZCircle.h */,
+				CBFEA0AC1BC75E520096BC7B /* LZCircle.m */,
+				CBFEA0AE1BC75E8C0096BC7B /* LZCircleLayer.h */,
+				CBFEA0AF1BC75E8C0096BC7B /* LZCircleLayer.m */,
+			);
+			name = LZCircleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFEA0B01BC75E8C0096BC7B /* LZCircleLayer.m in Sources */,
 				CBFEA08D1BC75AC50096BC7B /* ViewController.m in Sources */,
+				CBFEA0AD1BC75E520096BC7B /* LZCircle.m in Sources */,
 				CBFEA08A1BC75AC50096BC7B /* AppDelegate.m in Sources */,
 				CBFEA0871BC75AC50096BC7B /* main.m in Sources */,
 			);
