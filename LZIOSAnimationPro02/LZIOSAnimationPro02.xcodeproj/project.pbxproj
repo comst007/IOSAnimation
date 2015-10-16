@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB35B56E1BD16AAF00A772F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B56D1BD16AAF00A772F8 /* main.m */; };
+		CB35B5711BD16AAF00A772F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B5701BD16AAF00A772F8 /* AppDelegate.m */; };
+		CB35B5741BD16AAF00A772F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B5731BD16AAF00A772F8 /* ViewController.m */; };
+		CB35B5771BD16AAF00A772F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB35B5751BD16AAF00A772F8 /* Main.storyboard */; };
+		CB35B5791BD16AAF00A772F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB35B5781BD16AAF00A772F8 /* Images.xcassets */; };
+		CB35B57C1BD16AAF00A772F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB35B57A1BD16AAF00A772F8 /* LaunchScreen.xib */; };
+		CB35B5881BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B5871BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB35B5821BD16AAF00A772F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB35B5601BD16AAF00A772F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB35B5671BD16AAF00A772F8;
+			remoteInfo = LZIOSAnimationPro02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB35B5681BD16AAF00A772F8 /* LZIOSAnimationPro02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZIOSAnimationPro02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB35B56C1BD16AAF00A772F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB35B56D1BD16AAF00A772F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB35B56F1BD16AAF00A772F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB35B5701BD16AAF00A772F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB35B5721BD16AAF00A772F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB35B5731BD16AAF00A772F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB35B5761BD16AAF00A772F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB35B5781BD16AAF00A772F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB35B57B1BD16AAF00A772F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB35B5811BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZIOSAnimationPro02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB35B5861BD16AAF00A772F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB35B5871BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZIOSAnimationPro02Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB35B5651BD16AAF00A772F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35B57E1BD16AAF00A772F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB35B55F1BD16AAF00A772F8 = {
+			isa = PBXGroup;
+			children = (
+				CB35B56A1BD16AAF00A772F8 /* LZIOSAnimationPro02 */,
+				CB35B5841BD16AAF00A772F8 /* LZIOSAnimationPro02Tests */,
+				CB35B5691BD16AAF00A772F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB35B5691BD16AAF00A772F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B5681BD16AAF00A772F8 /* LZIOSAnimationPro02.app */,
+				CB35B5811BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB35B56A1BD16AAF00A772F8 /* LZIOSAnimationPro02 */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B56F1BD16AAF00A772F8 /* AppDelegate.h */,
+				CB35B5701BD16AAF00A772F8 /* AppDelegate.m */,
+				CB35B5721BD16AAF00A772F8 /* ViewController.h */,
+				CB35B5731BD16AAF00A772F8 /* ViewController.m */,
+				CB35B5751BD16AAF00A772F8 /* Main.storyboard */,
+				CB35B5781BD16AAF00A772F8 /* Images.xcassets */,
+				CB35B57A1BD16AAF00A772F8 /* LaunchScreen.xib */,
+				CB35B56B1BD16AAF00A772F8 /* Supporting Files */,
+			);
+			path = LZIOSAnimationPro02;
+			sourceTree = "<group>";
+		};
+		CB35B56B1BD16AAF00A772F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B56C1BD16AAF00A772F8 /* Info.plist */,
+				CB35B56D1BD16AAF00A772F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB35B5841BD16AAF00A772F8 /* LZIOSAnimationPro02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B5871BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m */,
+				CB35B5851BD16AAF00A772F8 /* Supporting Files */,
+			);
+			path = LZIOSAnimationPro02Tests;
+			sourceTree = "<group>";
+		};
+		CB35B5851BD16AAF00A772F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B5861BD16AAF00A772F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB35B5671BD16AAF00A772F8 /* LZIOSAnimationPro02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB35B58B1BD16AAF00A772F8 /* Build configuration list for PBXNativeTarget "LZIOSAnimationPro02" */;
+			buildPhases = (
+				CB35B5641BD16AAF00A772F8 /* Sources */,
+				CB35B5651BD16AAF00A772F8 /* Frameworks */,
+				CB35B5661BD16AAF00A772F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZIOSAnimationPro02;
+			productName = LZIOSAnimationPro02;
+			productReference = CB35B5681BD16AAF00A772F8 /* LZIOSAnimationPro02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB35B5801BD16AAF00A772F8 /* LZIOSAnimationPro02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB35B58E1BD16AAF00A772F8 /* Build configuration list for PBXNativeTarget "LZIOSAnimationPro02Tests" */;
+			buildPhases = (
+				CB35B57D1BD16AAF00A772F8 /* Sources */,
+				CB35B57E1BD16AAF00A772F8 /* Frameworks */,
+				CB35B57F1BD16AAF00A772F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB35B5831BD16AAF00A772F8 /* PBXTargetDependency */,
+			);
+			name = LZIOSAnimationPro02Tests;
+			productName = LZIOSAnimationPro02Tests;
+			productReference = CB35B5811BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB35B5601BD16AAF00A772F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CB35B5671BD16AAF00A772F8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB35B5801BD16AAF00A772F8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB35B5671BD16AAF00A772F8;
+					};
+				};
+			};
+			buildConfigurationList = CB35B5631BD16AAF00A772F8 /* Build configuration list for PBXProject "LZIOSAnimationPro02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB35B55F1BD16AAF00A772F8;
+			productRefGroup = CB35B5691BD16AAF00A772F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB35B5671BD16AAF00A772F8 /* LZIOSAnimationPro02 */,
+				CB35B5801BD16AAF00A772F8 /* LZIOSAnimationPro02Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB35B5661BD16AAF00A772F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35B5771BD16AAF00A772F8 /* Main.storyboard in Resources */,
+				CB35B57C1BD16AAF00A772F8 /* LaunchScreen.xib in Resources */,
+				CB35B5791BD16AAF00A772F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35B57F1BD16AAF00A772F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB35B5641BD16AAF00A772F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35B5741BD16AAF00A772F8 /* ViewController.m in Sources */,
+				CB35B5711BD16AAF00A772F8 /* AppDelegate.m in Sources */,
+				CB35B56E1BD16AAF00A772F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35B57D1BD16AAF00A772F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35B5881BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB35B5831BD16AAF00A772F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB35B5671BD16AAF00A772F8 /* LZIOSAnimationPro02 */;
+			targetProxy = CB35B5821BD16AAF00A772F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB35B5751BD16AAF00A772F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB35B5761BD16AAF00A772F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB35B57A1BD16AAF00A772F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB35B57B1BD16AAF00A772F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB35B5891BD16AAF00A772F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB35B58A1BD16AAF00A772F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB35B58C1BD16AAF00A772F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZIOSAnimationPro02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB35B58D1BD16AAF00A772F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZIOSAnimationPro02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB35B58F1BD16AAF00A772F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZIOSAnimationPro02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZIOSAnimationPro02.app/LZIOSAnimationPro02";
+			};
+			name = Debug;
+		};
+		CB35B5901BD16AAF00A772F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZIOSAnimationPro02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZIOSAnimationPro02.app/LZIOSAnimationPro02";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB35B5631BD16AAF00A772F8 /* Build configuration list for PBXProject "LZIOSAnimationPro02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35B5891BD16AAF00A772F8 /* Debug */,
+				CB35B58A1BD16AAF00A772F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB35B58B1BD16AAF00A772F8 /* Build configuration list for PBXNativeTarget "LZIOSAnimationPro02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35B58C1BD16AAF00A772F8 /* Debug */,
+				CB35B58D1BD16AAF00A772F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB35B58E1BD16AAF00A772F8 /* Build configuration list for PBXNativeTarget "LZIOSAnimationPro02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35B58F1BD16AAF00A772F8 /* Debug */,
+				CB35B5901BD16AAF00A772F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB35B5601BD16AAF00A772F8 /* Project object */;
+}
