@@ -14,6 +14,10 @@
 		CB35B5791BD16AAF00A772F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB35B5781BD16AAF00A772F8 /* Images.xcassets */; };
 		CB35B57C1BD16AAF00A772F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB35B57A1BD16AAF00A772F8 /* LaunchScreen.xib */; };
 		CB35B5881BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B5871BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m */; };
+		CB35B5961BD23E5D00A772F8 /* LZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B5951BD23E5D00A772F8 /* LZMenuButton.m */; };
+		CB35B59A1BD2428700A772F8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B5991BD2428700A772F8 /* MBProgressHUD.m */; };
+		CB35B59D1BD2569A00A772F8 /* LZMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35B59C1BD2569A00A772F8 /* LZMenuView.m */; };
+		CB773EDC1BD3071E0028723D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB773EDB1BD3071E0028723D /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		CB35B5811BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZIOSAnimationPro02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB35B5861BD16AAF00A772F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB35B5871BD16AAF00A772F8 /* LZIOSAnimationPro02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZIOSAnimationPro02Tests.m; sourceTree = "<group>"; };
+		CB35B5941BD23E5D00A772F8 /* LZMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMenuButton.h; sourceTree = "<group>"; };
+		CB35B5951BD23E5D00A772F8 /* LZMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMenuButton.m; sourceTree = "<group>"; };
+		CB35B5981BD2428700A772F8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CB35B5991BD2428700A772F8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CB35B59B1BD2569A00A772F8 /* LZMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMenuView.h; sourceTree = "<group>"; };
+		CB35B59C1BD2569A00A772F8 /* LZMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMenuView.m; sourceTree = "<group>"; };
+		CB773EDB1BD3071E0028723D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB773EDC1BD3071E0028723D /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,9 @@
 		CB35B56A1BD16AAF00A772F8 /* LZIOSAnimationPro02 */ = {
 			isa = PBXGroup;
 			children = (
+				CB773EDB1BD3071E0028723D /* Reveal.framework */,
+				CB35B5971BD2427800A772F8 /* Public */,
+				CB35B5931BD23E3000A772F8 /* View */,
 				CB35B56F1BD16AAF00A772F8 /* AppDelegate.h */,
 				CB35B5701BD16AAF00A772F8 /* AppDelegate.m */,
 				CB35B5721BD16AAF00A772F8 /* ViewController.h */,
@@ -117,6 +132,26 @@
 				CB35B5861BD16AAF00A772F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB35B5931BD23E3000A772F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B5941BD23E5D00A772F8 /* LZMenuButton.h */,
+				CB35B5951BD23E5D00A772F8 /* LZMenuButton.m */,
+				CB35B59B1BD2569A00A772F8 /* LZMenuView.h */,
+				CB35B59C1BD2569A00A772F8 /* LZMenuView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB35B5971BD2427800A772F8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CB35B5981BD2428700A772F8 /* MBProgressHUD.h */,
+				CB35B5991BD2428700A772F8 /* MBProgressHUD.m */,
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB35B5961BD23E5D00A772F8 /* LZMenuButton.m in Sources */,
 				CB35B5741BD16AAF00A772F8 /* ViewController.m in Sources */,
+				CB35B59A1BD2428700A772F8 /* MBProgressHUD.m in Sources */,
 				CB35B5711BD16AAF00A772F8 /* AppDelegate.m in Sources */,
 				CB35B56E1BD16AAF00A772F8 /* main.m in Sources */,
+				CB35B59D1BD2569A00A772F8 /* LZMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +385,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LZIOSAnimationPro02",
+				);
 				INFOPLIST_FILE = LZIOSAnimationPro02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,6 +405,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LZIOSAnimationPro02",
+				);
 				INFOPLIST_FILE = LZIOSAnimationPro02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +468,7 @@
 				CB35B58D1BD16AAF00A772F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB35B58E1BD16AAF00A772F8 /* Build configuration list for PBXNativeTarget "LZIOSAnimationPro02Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +477,7 @@
 				CB35B5901BD16AAF00A772F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
